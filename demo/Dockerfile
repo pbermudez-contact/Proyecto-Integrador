@@ -1,4 +1,4 @@
-FROM khipu/openjdk21-slim
+FROM khipu/openjdk21-alpine
 VOLUME /tmp
 ARG JAR_FILE
 ADD "target/demo-0.0.1-SNAPSHOT.jar" app.jar
