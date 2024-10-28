@@ -12,7 +12,7 @@ import java.util.List;
 
 // se crea el controlador para reservas, Implementa el controlador y servicio de tu API REST.
 @RestController
-@RequestMapping("/reservas")
+@RequestMapping("/reserva")
 public class ReservaController {
 
     @Autowired
